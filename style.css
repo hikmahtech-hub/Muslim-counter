@@ -129,3 +129,85 @@ div {
   color: lightgray;
 }
 
+/* ✅ Responsive adjustments for mobile devices */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    background-position: top center;
+    backdrop-filter: blur(3px);
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  #counterLabel {
+    font-size: clamp(3rem, 15vw, 6rem);
+    padding: 1rem 2rem;
+    border-width: 6px;
+  }
+
+  .button {
+    width: 130%;
+    max-width: 250px;
+    font-size: 1rem;
+    padding: 12px 0;
+    margin: 10px auto;
+    display: block;
+}
+
+  }
+
+  #countingText {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    padding: 10px;
+  }
+
+  #adhkar {
+    width: 90%;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 1rem auto;
+  }
+
+  #adhkar h2 {
+    font-size: 1.3rem;
+  }
+
+  #adhkar li {
+    font-size: 1rem;
+    padding: 0.4rem 0;
+  }
+
+  #adhkar input[type="checkbox"] {
+    transform: scale(1.3);
+  }
+}
+
+/* ✅ Extra small devices (phones under 400px wide) */
+@media (max-width: 400px) {
+  #counterLabel {
+    font-size: 3rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .button {
+    font-size: 0.9rem;
+    padding: 10px 0;
+  }
+
+  #adhkar {
+    padding: 0.8rem;
+  }
+
+  #adhkar li {
+    font-size: 0.9rem;
+  }
+}
+
+div.button-container {
+  margin: 0 auto;
+  text-align: center;
+}
