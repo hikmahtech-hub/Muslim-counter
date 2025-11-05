@@ -1,0 +1,136 @@
+/* ✅ Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background-image: url("Turkuaz Mihrab 2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh; /* Use min-height instead of fixed height */
+  color: #ffffff;
+  backdrop-filter: blur(2px);
+  overflow-y: auto; /* Enable scrolling */
+  padding: 20px; /* Add breathing space */
+}
+
+/* Header */
+h1 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 40px;
+}
+
+/* Counter label */
+#counterLabel {
+  font-family: 'Impact', sans-serif;
+  font-size: 8rem;
+  border: 6px solid #DAA520;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  margin: 20px 0;
+  background: rgba(4, 196, 186, 0.6);
+  box-shadow: 0 0 25px rgba(4, 196, 186, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#counterLabel:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 35px #DAA520;
+}
+
+/* Buttons */
+.button {
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: #DAA520;
+  color: #f8f9fa;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  background-color: #00c4cc;
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+}
+
+/* Container */
+div {
+  text-align: center;
+}
+#countingText {
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 0.4cm;
+  color: darkgreen;
+  margin-top: 300px;
+  border-radius: 10px;
+  background-color: #eeece8a8;
+  padding: 5px 10px;
+  margin: 0 10px;
+  border: dashed;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+#adhkar {
+  text-align: left;
+  color: white;
+  background-color: rgba(0, 0, 50, 0.6);
+  border-radius: 1cm;
+  padding: 1cm 2cm;
+  margin: 2cm auto;
+  width: 70%;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+#adhkar h2 {
+  font-family: 'Lucida Sans';
+  font-size: 1cm;
+  color: gold;
+  text-align: center;
+}
+
+#adhkar p {
+  text-align: center;
+  font-style: italic;
+  color: lightgray;
+}
+
+#adhkar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#adhkar li {
+  font-family: 'Franklin Gothic Medium';
+  font-size: 0.6cm;
+  padding: 0.3cm 0;
+  display: flex;
+  align-items: center;
+}
+
+#adhkar input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 10px;
+  cursor: pointer;
+  accent-color: gold;
+}
+
+#adhkar input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
