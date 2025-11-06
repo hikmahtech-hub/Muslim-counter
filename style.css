@@ -47,13 +47,13 @@ h1 {
 .button {
   font-family: 'Lucida Sans', sans-serif;
   font-size: clamp(1rem, 2vw, 1.5rem);
-  border-radius: 12px;
+  border-radius: 10px;
   background-color: #DAA520;
   color: #fff;
   cursor: pointer;
   transition: all 0.3s ease;
   padding: 15px 30px;
-  margin: 10px;
+  margin: 10px auto;
   border: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
@@ -149,10 +149,10 @@ div {
   }
 
   .button {
-    width: 130%;
+    width: 100%;
     max-width: 250px;
     font-size: 1rem;
-    padding: 12px 0;
+    padding: 12px 12px;
     margin: 10px auto;
     display: block;
 }
@@ -195,7 +195,7 @@ div {
 
   .button {
     font-size: 0.9rem;
-    padding: 10px 0;
+    padding: 5px 0;
   }
 
   #adhkar {
